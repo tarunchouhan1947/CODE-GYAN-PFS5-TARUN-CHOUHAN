@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div p{
+               background-color: blue;  
+        }
+        .a>p{
+            background-color: brown;
+        }
+
+        div+p{
+            background-color:red;
+        }
+        div~p{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>decendant selector</h1>
+    <div>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        
+    </div>
+
+    <h1>child selector</h1>
+   
+      <div class="a">
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <div>
+        <p>parragraph 1</p>
+        </div>
+        <p>parragraph 1</p>
+    </div>
+
+
+
+
+    <h1>child adjacent sibling SELECTOR</h1>
+    
+    <div>
+
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+    </div>
+
+    <p>parragraph</p>
+    <p>parragraph</p>
+    <p>parragraph</p>
+  
+
+    <h1>general sibling selector</h1>
+    <div>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+        <p>parragraph 1</p>
+    </div>
+
+      <p>parragraph 1</p>
+      <p>parragraph 1</p>
+      <p>parragraph 1</p>
+      <p>parragraph 1</p>
+
+
+
+</body>
+</html>
