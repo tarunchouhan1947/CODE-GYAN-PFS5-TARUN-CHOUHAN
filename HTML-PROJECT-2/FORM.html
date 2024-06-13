@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+ <h1>FORMS IN HTML</h1>
+    <form>
+         <fieldset>
+        <legend> user details</legend>
+        <label for="Fname">FIRST NAME:</label><br><br>
+        <input type="text" id="Fname" value="enter"><br><br>
+         
+        <label for="ln">LAST NAME:</label><br><br>
+        <input type="text" id="ln" value="enter"><br><br>
+
+        <label for ="mail">MAIL:</label><br><br>
+        <input type="email" id="mail" value="enter"><br><br>
+
+        <label for ="pass">password:</label><br><br>
+        <input type="password" id="pass"><br><br>
+         
+        <label for="gender">select your gender</label><br>
+
+        <input type="radio" id="gender" name = gender value="mail">male<br>
+
+        <input type="radio" id="gender" name = gender  value="female">female<br>
+        
+        <label for="hobies">select your hobies</label><br>
+        <input type="checkbox" id="hobies" name="hobies" value="playing">playing<br>
+        <input type="checkbox" id="hobies" name="hobies" value="">reading<br>
+        <input type="checkbox" id="hobies" name="hobies" value="">cricket<br>
+        <input type="checkbox" id="hobies" name="hobies" value="">travelling<br>
+        
+        <label for="optionlist">select your state:</label>
+        <select id="optionlist">
+
+        <option value="ap"> andrapradesh</option>
+        <option value="ts">tamilnadu</option>
+        <option value="ks">karnataka</option>
+        <option value="ks">kashmir</option>
+        <option value ="ms">maharastra</option>
+        </select>
+        
+        <label for="dl"> select your favorate color</label>
+        <input type="text" id="dl" list="favcolors">
+        <datalist id="favcolors">
+                   <option>black</option>
+                   <option>blue</option>
+                   <option>red</option>
+                   <option>blue light</option>
+        </datalist><br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+        <textarea rows="10" cols ="50">write about your self</textarea>
+        </fieldset>
+       
+    </form>
+</body>
+</html>
