@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+    <form name="a"  >
+        <input type="text" name="username" >
+        <br>
+        <br>
+        <input type="password" name="pass">
+        <br>
+        <br>
+        <button onclick="getvalue();return false;">onclick</button>
+        <script>
+           function getvalue(){
+           var x=document.forms["a"]["username"];
+           var z=x.value;
+           
+            var x1=document.forms["a"]["pass"];
+            var z1=x1.value;
+           console.log(z+z1);
+            if(z=="tarun" && z1=="1234"){
+                  alert("log in successfully");
+            }else{
+                  alert("log in un successfull");
+                }
+                }
+        </script>
+    </form>
+</body>
+</html>
