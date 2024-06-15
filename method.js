@@ -43,7 +43,7 @@ let num10=num9.reduce((previous,current)=>{
 console.log(num10)
 
 //filterout 90plus marks students
-let num11=[30,45,05,96,38,78,98,99]6
+let num11=[30,45,05,96,38,78,98,99]
 let num12=num11.filter((val11)=>{
     return val11>90;
 }
