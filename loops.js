@@ -64,7 +64,7 @@ if (sum%2===0){
 }
 
 }
-
+//guessing a number
 let gamenum=25;
 let usernum=prompt("enter the number")
 while (usernum!=gamenum){
