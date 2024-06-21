@@ -31,7 +31,7 @@ let str=("hello world")
 for(let val of str){
     console.log(val.toUpperCase())
 }
-//for of loop in array after every iteration the full array is printed//
+
 
 let arr=[1,2,3,4,5,6,7]
 for(let val1 of arr){
