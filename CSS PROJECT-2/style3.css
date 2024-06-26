@@ -1,0 +1,77 @@
+body{
+	    background:rgba(0, 0, 0, 0.4)url(https://i.postimg.cc/YqFd6KWs/1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.b{
+	display: grid;
+	place-items: center;
+	grid-template-columns: repeat(3, 590px); /* Three columns */
+    row-gap:60px;
+
+
+
+   
+}
+.a{
+	font-size: 40px;
+	padding-top: 20px;
+	color:red;
+	text-align: center;
+font-family: 'Roboto', sans-serif;
+    animation-name:tarun ;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes tarun{
+	0%{
+		color: red;
+	}
+	20%{
+		color:blue;
+	}
+	40%{
+		color:blue violet;
+	}60%{
+		color:white;
+	}80%{
+		color:greenyellow;
+	}
+	100%{
+		color:orangered;
+	}
+
+}
+
+.a1{
+	height: 32px;
+	width: 250px;
+	background-color: orange;
+	text-align: center;
+    padding-top: 11px;
+    border-radius: 30px;
+    color:darkred ;
+    font-size: 20px;
+    position: fixed;
+    right: 20px;
+}
+.a2{
+	color: red;
+	position: absolute;
+	float: left;
+	top:-10px;
+	left: 10px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.a3{
+	color: yellow;
+	border-color: yellow;
+	width: 40%;
+}
