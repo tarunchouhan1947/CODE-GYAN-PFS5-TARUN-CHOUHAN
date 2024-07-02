@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(185, 185, 208);
+    height: 100%;
+    width: 100%;
+}
+.carts{
+    display:grid;
+    justify-content: center;
+    position: relative;
+    right: 150px;
+    top: 40px;
+    grid-template-columns: 260px 260px 260px 260px ;
+    row-gap: 30px;
+    
+}
+.cart1{
+    height: 340px;
+    width: 220px;
+    background-color:#e1eaf4;
+    text-align: center;
+    border-radius: 15px;
+}
+.cart1 img{
+    height: 200px;
+    width: 200px;
+    border-radius:5px;
+
+}
+
+.show{
+    height: 60px;
+    width: 360px;
+    position: relative;
+    bottom: 730px;
+    left: 1160px;
+    
+}
+.show:hover{
+    transform: scale(1.03);
+
+}
+#sb:hover{
+    background-color: rgb(61, 72, 126);
+    color: blue;
+}
+
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+    font-family: 'Open Sans', sans-serif; 
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.h3{
+    font-size: 20px;
+    position: relative;
+    left: 105px;
+    top: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+h1{
+    height:40px;
+    text-align: center;
+    background-color: orange;
+    width: 300px;
+    position: relative;
+    left: 500px;
+    border-radius: 10px;
+    color: rgb(10, 8, 31);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sb{
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(211, 211, 235);
+    width: 330px;
+    
+}
+.y{
+    float: right;
+    position: relative;
+    bottom: 700px;
+    right: 22px;
+    gap: 15px;
+    height: 530px;
+    width: 340px;
+    background-color:rgb(10, 10, 10);
+    display: none;
+    grid-template-columns: 150px 150px;
+    overflow:scroll;
+    border-radius: 10px;
+}
+.y::-webkit-scrollbar{
+    display: none;
+}
+.y div{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(176, 176, 205);
+    text-align: center;
+    color: #e1eaf4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding-top: 10px;
+    position: relative;
+    left: 16px;
+    top: 22px;
+    text-transform: uppercase;
+}
+.y div:hover{
+    transform:scale(1.25);
+    color:black;
+    background-color: white;
+    
+    
+}
+
+.carts img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+.cart1:hover{
+    background-color: rgb(209, 234, 142);
+}
+
+.cb1:hover{
+    background-color:rgb(6, 26, 86);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cb1{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: rgb(230, 230, 220);
+    width: 150px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 10px;
+}
