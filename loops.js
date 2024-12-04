@@ -6,7 +6,7 @@ for(let i=1;i<=5;i++){
 console.log("count = ",count)
 
 //for loop example of n user input add numbers up to 100//
-let count1=0
+ let count1=z
 let n=100;
 for(i=1;i<=n;i++){
     count1=count1+i//(0+1,1+2)
