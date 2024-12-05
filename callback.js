@@ -13,7 +13,7 @@ let asyncfunc2=()=>{
             resolve("success")
 
         },4000)
-    })
+    }
 
 }
 /*console.log("fetching data 1..............")
